@@ -1,7 +1,7 @@
 from microbit import display, accelerometer, sleep
 import random
 
-alphabet = list("ABCDEFGHIJKMNOPQRSTUVWXZ")
+alphabet = list("ABCDEFGHIJKLMNOPQRSTUVWXZ")
 
 while True:
     if accelerometer.was_gesture("shake"):
